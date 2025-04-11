@@ -1,0 +1,111 @@
+/* Contenedor principal para Inventario */
+
+
+
+.inventario-container {
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Filtros de búsqueda */
+.search-buttons button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #9425FF;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-buttons button:hover {
+  background-color: #B42273;
+}
+
+/* Botones de acción (Agregar, Exportar, Imprimir) */
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.action-buttons button,
+.action-buttons select {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #9425FF;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-buttons button:hover,
+.action-buttons select:hover {
+  background-color: #B42273;
+}
+
+/* Tabla de productos */
+.productos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.productos-table th,
+.productos-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.productos-table th {
+  background-color: #9425FF;
+  color: white;
+}
+
+.product-row:hover {
+  background-color: #f1f1f1;
+}
+
+.product-row .edit-btn,
+.product-row .delete-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #9425FF;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.product-row .edit-btn:hover,
+.product-row .delete-btn:hover {
+  color: #B42273;
+}
+
+/* Barra de búsqueda */
+.search-container {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #D0C5E0;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #9425FF;
+}
+
+
