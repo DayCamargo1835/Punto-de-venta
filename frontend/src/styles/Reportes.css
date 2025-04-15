@@ -1,0 +1,12 @@
+.reporte-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  }
+  .reporte-section h3 {
+    margin-bottom: 10px;
+    color: #9425FF;
+  }
+  

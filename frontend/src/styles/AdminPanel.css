@@ -1,0 +1,83 @@
+
+
+
+  
+  .admin-header {
+    background-color: #a25cd4;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .admin-user-info {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .admin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px; /* Más espacio entre botones */
+    padding: 40px;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  
+  .admin-card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px 20px; /* Aumentado */
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-width: 200px; /* Más ancho */
+    min-height: 100px;  /* Más alto */
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .admin-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .admin-icon {
+    color: #5bef44;
+    margin-bottom: 12px;
+  }
+  
+  .admin-footer {
+    background-color: #a544ef;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .logout-button {
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logout-button:hover {
+    background-color: #333;
+  }
+  
+  

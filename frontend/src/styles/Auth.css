@@ -1,0 +1,115 @@
+/* Contenedor común para Login y Registro */
+.auth-container {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3D3A4A;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .auth-form input,
+  .auth-form select {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .auth-form input:focus,
+  .auth-form select:focus {
+    border-color: #9425FF;
+    outline: none;
+  }
+  
+  .auth-form button {
+    background-color: #9425FF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-form button:hover {
+    background-color: #B42273;
+  }
+  
+  .auth-error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .auth-success {
+    color: green;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .admin-header {
+    background-color: #a25cd4;
+    color: white;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .admin-user-info {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .admin-footer {
+    background-color: #a544ef;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .logout-button {
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .logout-button:hover {
+    background-color: #333;
+  }
+  /* Layout general */
+  .page-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
